@@ -1,0 +1,83 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+
+
+header {
+    background-color: #0f0f0f;
+    margin-top: 0;
+    width: 100%;
+    height: 90px;
+}
+
+
+:root {
+    --colorTextos: #49454567;
+}
+
+
+
+body {
+
+    font-family: 'Roboto';
+    background-image: url("../img/fondo2.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: left;
+    font-size: 16px;
+    color:#f0f0f0;
+}
+
+form {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo {
+    position: relative;
+    margin: 45px;
+}
+
+input {
+    background: none color #f0f0f0;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus {
+    outline: none;
+    color: #5e5d5d;
+}
